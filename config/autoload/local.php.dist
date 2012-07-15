@@ -11,6 +11,10 @@
  * credentials from accidentally being comitted into version control.
  */
 
-return array(
-    // ...
+
+$dbParams = array(
+        'database'  => 'ironFlame',
+        'username'  => 'ironFlame',
+        'password'  => 'changeme',
+        'hostname'  => 'localhost',
 );
